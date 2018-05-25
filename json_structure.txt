@@ -1,0 +1,35 @@
+{
+    "name" : "<project name>",
+    "description" : "<project description optional>",
+    "map-taskId-to-taskinfo" : {
+                                <TaskId : {TaskName, description, <add any other relevent parameter>}>
+                                "A" : {
+                                    "task-name" : "abc",
+                                    "task-description" : "fkajdshfeiufnacsdnai"
+                                    "children" : []
+                                },
+                                "B" : {
+                                    "task-name" : "pqr",
+                                    "task-description" : "fkajdshfeiufnacsdnai"
+                                    "children" : []
+                                },
+                                "C" : {
+                                    "task-name" : "uvw",
+                                    "task-description" : "fkajdshfeiufnacsdnai"
+                                    "children" : []
+                                },
+                                "D" : {
+                                    "task-name" : "xyz",
+                                    "task-description" : "fkajdshfeiufnacsdnai"
+                                    "children" : []
+                                }
+    }
+    "map-taskId-to-Dependencies" : [
+                                    <TaskId (main)> : <[TaskId on which main is dependent, Type of Dependency]>
+                                    "A" : {null},
+                                    "B" : {null},
+                                    "C" : {["A", 1], ["B", 3]}
+                                    "D" : {["A", 2], ["C", 1]}
+                                    
+    ]
+}
