@@ -24,12 +24,12 @@
                                     "children" : []
                                 }
     }
-    "map-taskId-to-Dependencies" : [
+    "map-taskId-to-Dependencies" : {
                                     <TaskId (main)> : <[TaskId on which main is dependent, Type of Dependency]>
-                                    "A" : {null},
-                                    "B" : {null},
-                                    "C" : {["A", 1], ["B", 3]}
-                                    "D" : {["A", 2], ["C", 1]}
+                                    "A" : [null],
+                                    "B" : [null],
+                                    "C" : [["A", 1], ["B", 3]]
+                                    "D" : [["A", 2], ["C", 1]]
                                     
-    ]
+    }
 }
