@@ -6,17 +6,17 @@
                                 "A" : {
                                     "task-name" : "abc",
                                     "task-description" : "fkajdshfeiufnacsdnai"
-                                    "children" : []
+                                    "children" : ["C", "D"]
                                 },
                                 "B" : {
                                     "task-name" : "pqr",
                                     "task-description" : "fkajdshfeiufnacsdnai"
-                                    "children" : []
+                                    "children" : ["C"]
                                 },
                                 "C" : {
                                     "task-name" : "uvw",
                                     "task-description" : "fkajdshfeiufnacsdnai"
-                                    "children" : []
+                                    "children" : ["D"]
                                 },
                                 "D" : {
                                     "task-name" : "xyz",
